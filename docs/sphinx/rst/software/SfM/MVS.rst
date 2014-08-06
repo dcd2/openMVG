@@ -31,7 +31,7 @@ Once a 3D calibration have been computed you can convert the SfM_Ouput files to 
     "The software internally builds an image pyramid, and this parameter specifies the level in the 
     image pyramid that is used for the computation. When level is 0, original (full) resolution images are used. 
     When level is 1, images are halved (or 4 times less pixels). When level is 2, images are 4 times smaller (or 16 times less pixels). 
-    In general, level = 1 is suggested, because cameras typically do not have r,g,b censors for each pixel (bayer pattern). 
+    In general, level = 1 is suggested, because cameras typically do not have r,g,b censors [sic] for each pixel (bayer pattern). 
     Note that increasing the value of level significantlly speeds-up the whole computation, 
     while reconstructions become significantly sparse." [http://www.di.ens.fr/pmvs/documentation.html]
     
