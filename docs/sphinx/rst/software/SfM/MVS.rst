@@ -52,8 +52,7 @@ In order to use CMVS for large scene openMVG2PMVS export also the scene in the B
 .. code-block:: c++
 
   $ openMVG_main_openMVG2PMVS -i Dataset/outReconstruction/SfM_Output/ -o Dataset/outReconstruction/SfM_Output/
-  $ cmvs Dataset/outReconstruction/SfM_Output/PMVS/ [MaxImageCountByCluster=100]
-  $ cmvs Dataset/outReconstruction/SfM_Output/PMVS/ 30
+  $ cmvs Dataset/outReconstruction/SfM_Output/PMVS/ 100 6
   $ genOption Dataset/outReconstruction/SfM_Output/PMVS/
   $ sh Dataset/outReconstruction/SfM_Output/PMVS/pmvs.sh
 
